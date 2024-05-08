@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page"
+    "displayName": "Home Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,22 @@
     },
     "description": {
       "type": "text"
+    },
+    "herocontent": {
+      "displayName": "hero content",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-content"
+    },
+    "herocontent2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-content"
+    },
+    "herocontent3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-content"
     }
   }
 }
