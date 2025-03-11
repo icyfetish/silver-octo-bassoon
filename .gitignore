@@ -112,3 +112,5 @@ exports
 dist
 build
 .strapi-updater.json
+temp_auto_push.bat
+temp_interactive_push.bat
