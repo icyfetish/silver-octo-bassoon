@@ -5,10 +5,9 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi",
-    "preinstall": "node dist/setup.js"
+    "start": "node init && strapi start",
+    "build": "node init && strapi build",
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
