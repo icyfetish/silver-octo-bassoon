@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "preinstall": "node dist/setup.js"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
